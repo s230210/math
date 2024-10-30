@@ -2,11 +2,11 @@
 import streamlit as st      
 
 # 제목 쓰기
-st.title('동생아 _________')  
+st.title('동생아 수학 공부하자!')  
 # 부제목 쓰기
-st.subheader('오늘의 주제: _______')
+st.subheader('오늘의 주제: 양수와 음수')
 # 본문 쓰기
-st.write('음수?? ______않아!') 
+st.write('음수??어렵지 않아!') 
 
 # 여러 개의 열(문단)을 생성
 #col1, col2 = st.columns(2)       
@@ -25,10 +25,10 @@ st.write('음수?? ______않아!')
 #a = st.number_input('____________', value= ____)  
 
 # 버튼 생성 및 동작
-#if st.button('양수일까 ____일까?'):
+#if st.button('양수일까 음수일까?'):
 #       if a > 0:
-#              st.write('________')
+#              st.write('양수')
 #       elif a < 0:
-#              st.write('________')
+#              st.write('음수')
 #       else:
-#              st.write('________')
+#              st.write('영')
